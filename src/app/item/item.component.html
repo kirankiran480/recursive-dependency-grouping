@@ -1,0 +1,16 @@
+<div class="item" *ngIf="item">
+  <div class="item__header">{{item.name}}</div>
+  <div class="item__body">
+    <div class="item__body__desc">
+      <ng-container *ngIf="item.short_description">
+        {{item.short_description}}
+      </ng-container>
+      <ng-container *ngIf="!item.short_description">
+        Description not available!
+      </ng-container>
+    </div>
+    <div class="item__body__children" *ngIf="item.items">
+      <app-item *ngFor="let child of item.items" [item]="child"></app-item>
+    </div>
+  </div>
+</div>

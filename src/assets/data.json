@@ -1,0 +1,229 @@
+{
+
+  "result": [
+
+    {
+
+      "sys_id": "1",
+
+      "parent": "",
+
+      "short_description": "",
+
+      "name": "Develop and Manage Products and Services",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "2",
+
+      "parent": "",
+
+      "short_description": "",
+
+      "name": "Market and Sell Products and Services",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "3",
+
+      "parent": {
+
+        "value": "2"
+
+      },
+
+      "short_description": "Marketing planning application",
+
+      "name": "Develop and manage marketing plans",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "3",
+
+      "parent": {
+
+        "value": "2"
+
+      },
+
+      "short_description": "Marketing planning application",
+
+      "name": "Develop and manage marketing plans",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "4",
+
+      "parent": {
+
+        "value": "2"
+
+      },
+
+      "short_description": "Sale planning application",
+
+      "name": "Develop and manage sales plans",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "5",
+
+      "parent": {
+
+        "value": "1"
+
+      },
+
+      "short_description": "",
+
+      "name": "Generate and define new product/service ideas",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "2",
+
+      "parent": {
+
+        "value": "1"
+
+      },
+
+      "short_description": "",
+
+      "name": "Generate and define new product/service ideas",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "3",
+
+      "parent": {
+
+        "value": "5"
+
+      },
+
+      "short_description": "",
+
+      "name": "Generate and define new product/service ideas",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "2",
+
+      "parent": "",
+
+      "short_description": "",
+
+      "name": "Market and Sell Products and Services",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "6",
+
+      "parent": {
+
+        "value": "4"
+
+      },
+
+      "short_description": "",
+
+      "name": "Manage leads/opportunities",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "7",
+
+      "parent": {
+
+        "value": "9"
+
+      },
+
+      "short_description": "Support and maintain products",
+
+      "name": "Support and maintain product lines",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "8",
+
+      "parent": {
+
+        "value": "7"
+
+      },
+
+      "short_description": "Manage existing products",
+
+      "name": "Manage existing product lines",
+
+      "active": "true"
+
+    },
+
+    {
+
+      "sys_id": "9",
+
+      "parent": {
+
+        "value": "8"
+
+      },
+
+      "short_description": "Support existing products",
+
+      "name": "Support existing product lines",
+
+      "active": "true"
+
+    }
+
+  ]
+
+}
